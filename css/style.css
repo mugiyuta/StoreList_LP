@@ -141,6 +141,26 @@ body {
     height: 100%;
     z-index: 3;
   }
+  .wrap header .line_btn {
+    display: block;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    right: 70px;
+    width: 40px;
+    height: 40px;
+    z-index: 5;
+  }
+  .wrap header .mail_btn {
+    display: block;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    z-index: 5;
+  }
   .wrap .background_img {
     position: fixed;
     width: 100%;

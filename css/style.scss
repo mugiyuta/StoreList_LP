@@ -157,6 +157,26 @@ body {
                 height: 100%;
                 z-index: 3;
             }
+            .line_btn {
+                display: block;
+                text-decoration: none;
+                position: absolute;
+                top: 20px;
+                right: 70px;
+                width: 40px;
+                height: 40px;
+                z-index: 5;
+            }
+            .mail_btn {
+                display: block;
+                text-decoration: none;
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                width: 40px;
+                height: 40px;
+                z-index: 5;
+            }
         }
 
         .background_img {
