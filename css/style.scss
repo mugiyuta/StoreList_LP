@@ -157,25 +157,27 @@ body {
                 height: 100%;
                 z-index: 3;
             }
-            .line_btn {
+            .header_line_btn {
                 display: block;
                 text-decoration: none;
                 position: absolute;
-                top: 20px;
+                top: 18px;
                 right: 70px;
-                width: 40px;
-                height: 40px;
+                width: 20px;
+                height: 20px;
                 z-index: 5;
+                color: $text_color;
             }
-            .mail_btn {
+            .header_mail_btn {
                 display: block;
                 text-decoration: none;
                 position: absolute;
-                top: 20px;
-                right: 20px;
-                width: 40px;
-                height: 40px;
+                top: 18px;
+                right: 25px;
+                width: 20px;
+                height: 20px;
                 z-index: 5;
+                color: $text_color;
             }
         }
 
@@ -269,6 +271,55 @@ body {
                     width: 230px;
                     margin-left: 40px;
                 }
+            }
+        }
+        footer {
+            margin: 0;
+            width: 100%;
+            .footer_item {
+                margin: 35px 0;
+                width: 100%;
+                &:nth-child(2) {
+                    margin-bottom: 80px;
+                }
+                .footer_title {
+                    text-align: center;
+                }
+                .footer_line_btn {
+                    display: inline-block;
+                    text-decoration: none;
+                    margin-left: 50%;
+                    transform: translateX(-50%);
+                    width: 100px;
+                    border: 1px solid rgba(255, 255, 255, 0.3);
+                    border-radius: 10px;
+                    color: $text_color;
+                    svg {
+                        margin-left: 50%;
+                        transform: translateX(-50%);
+                    }
+                }
+                .footer_mail_btn{
+                    display: inline-block;
+                    text-decoration: none;
+                    margin-left: 50%;
+                    transform: translateX(-50%);
+                    width: 100px;
+                    border: 1px solid rgba(255, 255, 255, 0.3);
+                    border-radius: 10px;
+                    color: $text_color;
+                    svg {
+                        margin-left: 50%;
+                        transform: translateX(-50%);
+                    }
+                }
+            }
+            .footer_text {
+                margin-right: 10px;
+                float: right;
+                letter-spacing: 1px;
+                font-size: 10px;
+                font-weight: lighter;
             }
         }
     }

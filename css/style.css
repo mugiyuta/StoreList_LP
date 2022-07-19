@@ -141,25 +141,27 @@ body {
     height: 100%;
     z-index: 3;
   }
-  .wrap header .line_btn {
+  .wrap header .header_line_btn {
     display: block;
     text-decoration: none;
     position: absolute;
-    top: 20px;
+    top: 18px;
     right: 70px;
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     z-index: 5;
+    color: rgba(255, 255, 255, 0.8);
   }
-  .wrap header .mail_btn {
+  .wrap header .header_mail_btn {
     display: block;
     text-decoration: none;
     position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 40px;
-    height: 40px;
+    top: 18px;
+    right: 25px;
+    width: 20px;
+    height: 20px;
     z-index: 5;
+    color: rgba(255, 255, 255, 0.8);
   }
   .wrap .background_img {
     position: fixed;
@@ -247,5 +249,54 @@ body {
   .wrap .contents .price_item .price_img3 {
     width: 230px;
     margin-left: 40px;
+  }
+  .wrap footer {
+    margin: 0;
+    width: 100%;
+  }
+  .wrap footer .footer_item {
+    margin: 35px 0;
+    width: 100%;
+  }
+  .wrap footer .footer_item:nth-child(2) {
+    margin-bottom: 80px;
+  }
+  .wrap footer .footer_item .footer_title {
+    text-align: center;
+  }
+  .wrap footer .footer_item .footer_line_btn {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .wrap footer .footer_item .footer_line_btn svg {
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  .wrap footer .footer_item .footer_mail_btn {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .wrap footer .footer_item .footer_mail_btn svg {
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  .wrap footer .footer_text {
+    margin-right: 10px;
+    float: right;
+    letter-spacing: 1px;
+    font-size: 10px;
+    font-weight: lighter;
   }
 }/*# sourceMappingURL=style.css.map */
